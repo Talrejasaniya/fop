@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    scanf("enter a number:%d",&a);
+    if(a%2!=0)
+    {
+        printf("odd");
+    }
+    else
+    {
+        printf("even");
+    }
+}
