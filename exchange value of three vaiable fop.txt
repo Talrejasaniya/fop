@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main()
+{
+    int a,b,c;
+    printf("enter values of a,bandc\n");
+    scanf("%d %d %d",&a,&b,&c);
+    
+    printf("\n a=%d",a);
+    printf("\n b=%d",b);
+    printf("\n c=%d",c);
+    
+    a=a+b+c;
+    b=a-b-c;
+    c=a-b-c;
+    a=a-b-c;
+    
+    printf("\n after exchange");
+    printf("\na=%d",a);
+    printf("\nb=%d",b);
+    printf("\nc=%d",c);
+    
+}
