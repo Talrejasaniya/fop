@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main()
+{
+ int number[5]={25,50,75,99,54};
+ int i;
+ for(i=0;i<5;i++)
+ {
+     printf("%d\n",number[i]);
+ }
+}
