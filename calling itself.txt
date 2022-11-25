@@ -1,0 +1,17 @@
+#include <stdio.h>
+int add(int,int);
+int main()
+{
+    int a,b;
+    printf("enter 2 integer no.\n");
+    scanf("%d %d",&a ,&b);
+    
+    printf("%d+%d=%d\n",a,b,add(a,b));
+    
+    return add;
+}
+
+int add(int x,int y)
+{
+    return(x+y);
+}
