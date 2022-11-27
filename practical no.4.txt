@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {    
+
+    int number1, number2, sum,sum1,sum2,sum3;
+    
+    printf("Enter two integers: ");
+    scanf("%d %d", &number1, &number2);
+
+    // calculating sum
+    sum = number1 - number2; 
+    sum1 = number1 + number2;
+    sum2 = number1 * number2;
+    sum3 = number1 / number2;
+    
+    printf("%d - %d = %d\n", number1, number2, sum);
+    printf("%d + %d = %d\n", number1, number2, sum1);
+    printf("%d * %d = %d\n", number1, number2, sum2);
+    printf("%d / %d = %d\n", number1, number2, sum3);
+    return 0;
+}
