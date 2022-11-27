@@ -1,0 +1,39 @@
+#include<stdio.h>
+
+void main ()
+{
+	float marks1,marks2,marks3;
+	float percent;
+	float total;
+	
+	printf("Enter the 1st Marks ");
+	scanf("%f", &marks1);
+
+	printf("Enter the 2nd Marks ");
+	scanf("%f", &marks2);
+
+	printf("Enter the 3rd Marks ");
+	scanf("%f", &marks3);
+
+	total= marks1+marks2+marks3;
+
+	printf("\n the total mark is %f ",total);
+
+	percent = (total/300)*100;
+
+	printf("\n the percentage mark is : %f ", percent);
+
+	if(percent>=80){
+	    printf("\n Grade : A");
+	}
+	else if(percent>=60){
+    	printf("\n Grade : B");
+	}
+	else if(percent>=40) {
+    	printf("\n Grade : C");
+	}
+	else if(percent<40){
+    	printf("\n Fail ");
+    }
+
+}
