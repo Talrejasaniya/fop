@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+
+void main(){
+    char str1[10];
+    char c;
+    int i,count=0;
+    
+    printf("enter your name: ");
+    gets(str1);
+    printf("enter the letter to count:");
+    c=getchar();
+    for(i=0;str1[i];i++)
+    {
+        if(c==str1[i])
+        {
+            count++;
+        }
+    }
+    printf("letter appeared %d times in your given name",count);
+}
